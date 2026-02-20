@@ -1,0 +1,17 @@
+{
+  "name": "sap-azure-eventgrid-demo-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions – SAP OrderCreated → Teams notification",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "jest --testEnvironment node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

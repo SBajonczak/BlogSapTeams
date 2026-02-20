@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Azure Functions local settings (contains secrets)
+local.settings.json
+
+# Terraform state & sensitive files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+!*.tfvars.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
